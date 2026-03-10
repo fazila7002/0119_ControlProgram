@@ -25,4 +25,8 @@ int main(){
     cout <<"masukkan nilai matematika = ";
     cin >> nilMT;
 
+    rerata = Rata_rata(nilBI,nilMT);
+
+    cout << "Status keluluesan = "<<Status_lulus(rerata)<<" , dengan nilai rerata = "<<rerata<<endl;
+
 }
